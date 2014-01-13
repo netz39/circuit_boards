@@ -15954,8 +15954,8 @@ Source: 008-0260-0_E.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="68"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="68"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0207/10" value="68"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0207/10" value="68"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1k5"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="avr" deviceset="ATTINY2313" device="P" technology="-20"/>
@@ -15969,7 +15969,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="diode" deviceset="ZENER-DIODE" device="SOD80C" value="3V6"/>
 <part name="D2" library="diode" deviceset="ZENER-DIODE" device="SOD80C" value="3V6"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="1k5"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="0207/12" value="1k5"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="1k5"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
@@ -16014,8 +16014,8 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="LED2" gate="G$1" x="66.04" y="83.82" rot="R270"/>
 <instance part="JP1" gate="1" x="53.34" y="152.4" rot="MR180"/>
 <instance part="X1" gate="G$1" x="20.32" y="76.2" rot="MR0"/>
-<instance part="IC2" gate="A" x="127" y="142.24" rot="R180"/>
-<instance part="IC2" gate="B" x="127" y="154.94" rot="R180"/>
+<instance part="IC2" gate="B" x="127" y="142.24" rot="R180"/>
+<instance part="IC2" gate="A" x="127" y="154.94" rot="R180"/>
 <instance part="IC2" gate="C" x="127" y="170.18" rot="R180"/>
 <instance part="IC2" gate="D" x="83.82" y="127" rot="R180"/>
 <instance part="IC2" gate="P" x="76.2" y="170.18"/>
@@ -16201,7 +16201,7 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <wire x1="116.84" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
 <label x="91.44" y="154.94" size="1.778" layer="95"/>
-<pinref part="IC2" gate="B" pin="O"/>
+<pinref part="IC2" gate="A" pin="O"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="149.86" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
@@ -16248,7 +16248,7 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <wire x1="106.68" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="IC2" gate="A" pin="O"/>
+<pinref part="IC2" gate="B" pin="O"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -16281,7 +16281,7 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <wire x1="137.16" y1="154.94" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
 <label x="139.7" y="154.94" size="1.778" layer="95"/>
-<pinref part="IC2" gate="B" pin="I"/>
+<pinref part="IC2" gate="A" pin="I"/>
 </segment>
 </net>
 <net name="SCK'" class="0">
@@ -16293,7 +16293,7 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <wire x1="137.16" y1="142.24" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
 <label x="139.7" y="142.24" size="1.778" layer="95"/>
-<pinref part="IC2" gate="A" pin="I"/>
+<pinref part="IC2" gate="B" pin="I"/>
 </segment>
 </net>
 <net name="MOSI'" class="0">
@@ -16326,8 +16326,8 @@ Source: 008-0260-0_E.pdf</description>
 <junction x="114.3" y="119.38"/>
 <pinref part="IC1" gate="G$1" pin="(T0)PD4"/>
 <pinref part="IC2" gate="C" pin="OE"/>
-<pinref part="IC2" gate="B" pin="OE"/>
 <pinref part="IC2" gate="A" pin="OE"/>
+<pinref part="IC2" gate="B" pin="OE"/>
 <pinref part="IC2" gate="D" pin="OE"/>
 <junction x="152.4" y="147.32"/>
 </segment>
