@@ -16277,21 +16277,21 @@ Source: www.kingbright.com</description>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X17" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="680"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
 <part name="LED4" library="led" deviceset="LED" device="3MM" value="yellow"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R1206" value="3k9"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="n39" deviceset="TS2940" device="TV" technology="CT5"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="U$3" library="n39" deviceset="RIACON_101_2" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="green"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="680"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="680"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM" value="orange"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="680"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
 <part name="LED3" library="led" deviceset="LED" device="3MM" value="red"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 </parts>
