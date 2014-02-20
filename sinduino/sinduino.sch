@@ -16070,8 +16070,8 @@ Source: www.kingbright.com</description>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="18p"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="18p"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="22p"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="22p"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C1206" value="1u"/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C1206" value="1u"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>

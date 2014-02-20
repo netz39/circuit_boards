@@ -2065,8 +2065,8 @@ design rules under a new name.</description>
 <element name="C5" library="rcl" package="C1206" value="100n" x="42.8625" y="8.89" rot="MR180"/>
 <element name="C6" library="rcl" package="C1206" value="100n" x="24.13" y="10.4775" rot="MR0"/>
 <element name="C7" library="rcl" package="C1206" value="100n" x="23.1775" y="7.62" rot="MR0"/>
-<element name="C8" library="rcl" package="C1206" value="18p" x="42.8625" y="27.46375" rot="MR0"/>
-<element name="C9" library="rcl" package="C1206" value="18p" x="33.655" y="29.36875" rot="MR180"/>
+<element name="C8" library="rcl" package="C1206" value="22p" x="42.8625" y="27.46375" rot="MR0"/>
+<element name="C9" library="rcl" package="C1206" value="22p" x="33.655" y="29.36875" rot="MR180"/>
 <element name="C10" library="rcl" package="C1206" value="1u" x="23.1775" y="18.7325" rot="MR0"/>
 <element name="C11" library="rcl" package="C1206" value="1u" x="15.875" y="6.985" rot="MR180"/>
 <element name="Q1" library="crystal" package="HC49U-V" value="16000" x="37.1475" y="27.46375">
