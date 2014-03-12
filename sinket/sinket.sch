@@ -15329,12 +15329,12 @@ Source: www.kingbright.com</description>
 <part name="IC1" library="n39_avr" deviceset="ATTINY25" device="PU" technology="-20" value="ATTINY85-20PU"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="U$6" library="n39" deviceset="JTP-1130" device="" technology="C"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="1k5"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="68"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="68"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="1k5"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="1k5"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="68"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="68"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="D1" library="diode" deviceset="ZENER-DIODE" device="SOD80C" value="3V6"/>
 <part name="D2" library="diode" deviceset="ZENER-DIODE" device="SOD80C" value="3V6"/>
@@ -15345,7 +15345,7 @@ Source: www.kingbright.com</description>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="red"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM" value="green"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="diode" deviceset="1N581*" device="" technology="7-B" value="1N5817-B"/>
 <part name="IC2" library="n39" deviceset="TS2940" device="S" technology="CP50"/>
