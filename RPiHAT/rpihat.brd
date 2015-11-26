@@ -120,6 +120,7 @@
 <circle x="61.5" y="3.5" radius="3.15" width="0" layer="42"/>
 <circle x="3.5" y="3.5" radius="3.15" width="0" layer="41"/>
 <text x="6.985" y="49.2125" size="0.6096" layer="25" font="vector" ratio="10">1</text>
+<text x="0.3175" y="47.3075" size="0.6096" layer="25" font="vector" ratio="10" rot="R270">CC 4.0 BY-SA Netz39</text>
 </plain>
 <libraries>
 <library name="con-lsta">
