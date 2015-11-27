@@ -715,11 +715,19 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="8.255" y="37.1475"/>
 <vertex x="0" y="37.1475"/>
 <vertex x="0" y="56.515"/>
-<vertex x="66.04" y="56.515"/>
-<vertex x="66.04" y="47.625"/>
-<vertex x="8.255" y="47.625"/>
+<vertex x="65.0875" y="56.515"/>
+<vertex x="65.0875" y="47.3075"/>
+<vertex x="8.255" y="47.3075"/>
 </polygon>
 <contactref element="GND" pad="TP"/>
+<polygon width="0.3048" layer="16" isolate="0.1524">
+<vertex x="8.255" y="37.1475"/>
+<vertex x="0" y="37.1475"/>
+<vertex x="0" y="56.515"/>
+<vertex x="65.0875" y="56.515"/>
+<vertex x="65.0875" y="47.3075"/>
+<vertex x="8.255" y="47.3075"/>
+</polygon>
 </signal>
 <signal name="+3V3">
 <contactref element="R2" pad="2"/>
@@ -783,9 +791,9 @@ Please make sure your boards conform to these design rules.</description>
 <via x="6.35" y="45.4025" extent="1-16" drill="0.3302"/>
 <wire x1="6.35" y1="45.4025" x2="6.985" y2="46.0375" width="0.254" layer="16"/>
 <wire x1="6.985" y1="46.0375" x2="6.985" y2="54.9275" width="0.254" layer="16"/>
-<wire x1="6.985" y1="54.9275" x2="7.62" y2="55.5625" width="0.254" layer="16"/>
-<wire x1="7.62" y1="55.5625" x2="40.0975" y2="55.5625" width="0.254" layer="16"/>
-<wire x1="40.0975" y1="55.5625" x2="41.39" y2="54.27" width="0.254" layer="16"/>
+<wire x1="6.985" y1="54.9275" x2="7.9375" y2="55.88" width="0.254" layer="16"/>
+<wire x1="7.9375" y1="55.88" x2="39.78" y2="55.88" width="0.254" layer="16"/>
+<wire x1="39.78" y1="55.88" x2="41.39" y2="54.27" width="0.254" layer="16"/>
 </signal>
 <signal name="WP">
 <contactref element="WP" pad="2"/>
