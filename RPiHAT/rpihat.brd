@@ -663,9 +663,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="19.685" y="47.625" size="1" layer="37"/>
 <attribute name="NAME" x="19.4501" y="47.925" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="GPIO15" library="testpad" package="TP06R" value="PTR1TP06R" x="17.4625" y="49.53" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="17.4625" y="47.625" size="1" layer="37"/>
-<attribute name="NAME" x="17.2276" y="47.925" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<element name="GPIO15" library="testpad" package="TP06R" value="PTR1TP06R" x="17.145" y="49.53" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="17.145" y="47.625" size="1" layer="37"/>
+<attribute name="NAME" x="16.9101" y="47.925" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="GPIO14" library="testpad" package="TP06R" value="PTR1TP06R" x="14.605" y="49.53" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="14.605" y="47.625" size="1" layer="37"/>
@@ -712,20 +712,20 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="RPI_GPIO" pad="1"/>
 <contactref element="RPI_GPIO" pad="17"/>
-<wire x1="4.3425" y1="38.735" x2="6.0325" y2="38.735" width="0.3048" layer="1"/>
+<wire x1="4.3425" y1="38.735" x2="6.0325" y2="38.735" width="0.254" layer="1"/>
 <wire x1="6.0325" y1="38.735" x2="6.0325" y2="38.8375" width="0.3048" layer="1"/>
-<wire x1="4.3425" y1="38.735" x2="4.3425" y2="40.3225" width="0.3048" layer="1"/>
-<wire x1="4.3425" y1="40.3225" x2="4.3425" y2="41.91" width="0.3048" layer="1"/>
-<wire x1="4.3425" y1="41.91" x2="4.3425" y2="43.15" width="0.3048" layer="1"/>
-<wire x1="4.3425" y1="43.15" x2="5.01" y2="43.8175" width="0.3048" layer="1"/>
-<wire x1="8.37" y1="51.73" x2="7.3025" y2="50.6625" width="0.3048" layer="1"/>
-<wire x1="7.3025" y1="50.6625" x2="7.3025" y2="48.5775" width="0.3048" layer="1"/>
-<wire x1="7.3025" y1="48.5775" x2="7.3025" y2="43.815" width="0.3048" layer="1"/>
-<wire x1="7.3025" y1="43.815" x2="5.3975" y2="41.91" width="0.3048" layer="1"/>
-<wire x1="5.3975" y1="41.91" x2="4.3425" y2="41.91" width="0.3048" layer="1"/>
+<wire x1="4.3425" y1="38.735" x2="4.3425" y2="40.3225" width="0.254" layer="1"/>
+<wire x1="4.3425" y1="40.3225" x2="4.3425" y2="41.91" width="0.254" layer="1"/>
+<wire x1="4.3425" y1="41.91" x2="4.3425" y2="43.15" width="0.254" layer="1"/>
+<wire x1="4.3425" y1="43.15" x2="5.01" y2="43.8175" width="0.254" layer="1"/>
+<wire x1="8.37" y1="51.73" x2="7.3025" y2="50.6625" width="0.254" layer="1"/>
+<wire x1="7.3025" y1="50.6625" x2="7.3025" y2="48.5775" width="0.254" layer="1"/>
+<wire x1="7.3025" y1="48.5775" x2="7.3025" y2="43.815" width="0.254" layer="1"/>
+<wire x1="7.3025" y1="43.815" x2="5.3975" y2="41.91" width="0.254" layer="1"/>
+<wire x1="5.3975" y1="41.91" x2="4.3425" y2="41.91" width="0.254" layer="1"/>
 <contactref element="3V3" pad="TP"/>
 <contactref element="3V3_A" pad="TP"/>
-<wire x1="8.255" y1="48.5775" x2="7.3025" y2="48.5775" width="0.3048" layer="1"/>
+<wire x1="8.255" y1="48.5775" x2="7.3025" y2="48.5775" width="0.254" layer="1"/>
 <wire x1="28.575" y1="48.5775" x2="28.575" y2="51.615" width="0.254" layer="1"/>
 <wire x1="28.575" y1="51.615" x2="28.69" y2="51.73" width="0.254" layer="1"/>
 <wire x1="8.37" y1="51.73" x2="28.575" y2="51.615" width="0" layer="19" extent="1-1"/>
@@ -736,59 +736,60 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="RPI_GPIO" pad="27"/>
 <wire x1="2.61" y1="43.8175" x2="2.61" y2="42.26" width="0.3048" layer="1"/>
 <wire x1="2.61" y1="42.26" x2="2.6425" y2="41.91" width="0.3048" layer="1"/>
-<wire x1="2.61" y1="43.8175" x2="3.1775" y2="43.8175" width="0.3048" layer="1"/>
-<wire x1="3.1775" y1="43.8175" x2="3.81" y2="44.45" width="0.2032" layer="1"/>
-<wire x1="3.81" y1="44.45" x2="6.35" y2="44.45" width="0.2032" layer="1"/>
+<wire x1="2.61" y1="43.8175" x2="3.1775" y2="43.8175" width="0.254" layer="1"/>
+<wire x1="3.1775" y1="43.8175" x2="3.81" y2="44.45" width="0.254" layer="1"/>
+<wire x1="3.81" y1="44.45" x2="6.35" y2="44.45" width="0.254" layer="1"/>
 <via x="6.35" y="44.45" extent="1-16" drill="0.3302"/>
-<wire x1="6.35" y1="44.45" x2="7.62" y2="45.72" width="0.2032" layer="16"/>
-<wire x1="7.62" y1="45.72" x2="7.62" y2="49.2125" width="0.2032" layer="16"/>
-<wire x1="7.62" y1="49.2125" x2="9.525" y2="51.1175" width="0.2032" layer="16"/>
-<wire x1="9.525" y1="51.1175" x2="9.525" y2="52.3875" width="0.2032" layer="16"/>
-<wire x1="9.525" y1="52.3875" x2="10.16" y2="53.0225" width="0.2032" layer="16"/>
-<wire x1="10.16" y1="53.0225" x2="40.3225" y2="53.0225" width="0.2032" layer="16"/>
-<wire x1="40.3225" y1="53.0225" x2="41.39" y2="51.955" width="0.2032" layer="16"/>
-<wire x1="41.39" y1="51.955" x2="41.39" y2="51.73" width="0.2032" layer="16"/>
+<wire x1="6.35" y1="44.45" x2="7.62" y2="45.72" width="0.254" layer="16"/>
+<wire x1="7.62" y1="45.72" x2="7.62" y2="49.2125" width="0.254" layer="16"/>
+<wire x1="7.62" y1="49.2125" x2="9.525" y2="51.1175" width="0.254" layer="16"/>
+<wire x1="9.525" y1="51.1175" x2="9.525" y2="52.3875" width="0.254" layer="16"/>
+<wire x1="9.525" y1="52.3875" x2="10.16" y2="53.0225" width="0.254" layer="16"/>
+<wire x1="10.16" y1="53.0225" x2="40.3225" y2="53.0225" width="0.254" layer="16"/>
+<wire x1="40.3225" y1="53.0225" x2="41.39" y2="51.955" width="0.254" layer="16"/>
+<wire x1="41.39" y1="51.955" x2="41.39" y2="51.73" width="0.254" layer="16"/>
 </signal>
 <signal name="ID_SC">
 <contactref element="R1" pad="1"/>
 <contactref element="IC" pad="1"/>
 <contactref element="RPI_GPIO" pad="28"/>
-<wire x1="2.61" y1="45.7175" x2="3.1775" y2="45.7175" width="0.3048" layer="1"/>
-<wire x1="3.1775" y1="45.7175" x2="3.81" y2="45.085" width="0.2032" layer="1"/>
-<wire x1="3.81" y1="45.085" x2="6.0325" y2="45.085" width="0.2032" layer="1"/>
-<wire x1="6.0325" y1="45.085" x2="6.35" y2="45.4025" width="0.2032" layer="1"/>
-<wire x1="2.6425" y1="40.3225" x2="1.42875" y2="40.3225" width="0.2032" layer="1"/>
+<wire x1="2.61" y1="45.7175" x2="3.1775" y2="45.7175" width="0.254" layer="1"/>
+<wire x1="3.1775" y1="45.7175" x2="3.81" y2="45.085" width="0.254" layer="1"/>
+<wire x1="3.81" y1="45.085" x2="6.0325" y2="45.085" width="0.254" layer="1"/>
+<wire x1="6.0325" y1="45.085" x2="6.35" y2="45.4025" width="0.254" layer="1"/>
+<wire x1="2.6425" y1="40.3225" x2="1.42875" y2="40.3225" width="0.254" layer="1"/>
 <via x="1.42875" y="40.3225" extent="1-16" drill="0.3302"/>
-<wire x1="1.42875" y1="40.3225" x2="1.42875" y2="45.72" width="0.2032" layer="16"/>
+<wire x1="1.42875" y1="40.3225" x2="1.42875" y2="45.72" width="0.254" layer="16"/>
 <via x="1.42875" y="45.72" extent="1-16" drill="0.3302"/>
-<wire x1="1.42875" y1="45.72" x2="2.6075" y2="45.72" width="0.2032" layer="1"/>
+<wire x1="1.42875" y1="45.72" x2="2.6075" y2="45.72" width="0.254" layer="1"/>
 <wire x1="2.6075" y1="45.72" x2="2.61" y2="45.7175" width="0.3048" layer="1"/>
 <via x="6.35" y="45.4025" extent="1-16" drill="0.3302"/>
-<wire x1="6.35" y1="45.4025" x2="6.985" y2="46.0375" width="0.2032" layer="16"/>
-<wire x1="6.985" y1="46.0375" x2="6.985" y2="54.9275" width="0.2032" layer="16"/>
-<wire x1="6.985" y1="54.9275" x2="7.62" y2="55.5625" width="0.2032" layer="16"/>
-<wire x1="7.62" y1="55.5625" x2="40.0975" y2="55.5625" width="0.2032" layer="16"/>
-<wire x1="40.0975" y1="55.5625" x2="41.39" y2="54.27" width="0.2032" layer="16"/>
+<wire x1="6.35" y1="45.4025" x2="6.985" y2="46.0375" width="0.254" layer="16"/>
+<wire x1="6.985" y1="46.0375" x2="6.985" y2="54.9275" width="0.254" layer="16"/>
+<wire x1="6.985" y1="54.9275" x2="7.62" y2="55.5625" width="0.254" layer="16"/>
+<wire x1="7.62" y1="55.5625" x2="40.0975" y2="55.5625" width="0.254" layer="16"/>
+<wire x1="40.0975" y1="55.5625" x2="41.39" y2="54.27" width="0.254" layer="16"/>
 </signal>
 <signal name="WP">
 <contactref element="WP" pad="2"/>
 <contactref element="R3" pad="1"/>
 <contactref element="IC" pad="5"/>
-<wire x1="5.01" y1="45.7175" x2="5.01" y2="47.5025" width="0.2032" layer="1"/>
+<wire x1="5.01" y1="45.7175" x2="5.01" y2="47.5025" width="0.254" layer="1"/>
 <wire x1="5.01" y1="47.5025" x2="4.57" y2="47.9425" width="0.3048" layer="1"/>
 <wire x1="5.01" y1="45.7175" x2="4.765" y2="45.7175" width="0.3048" layer="1"/>
-<wire x1="4.765" y1="45.7175" x2="3.81" y2="46.355" width="0.2032" layer="1"/>
 <via x="3.81" y="46.355" extent="1-16" drill="0.3302"/>
-<wire x1="3.81" y1="46.355" x2="3.81" y2="40.9575" width="0.2032" layer="16"/>
-<wire x1="3.81" y1="40.9575" x2="1.5875" y2="38.735" width="0.2032" layer="16"/>
+<wire x1="3.81" y1="46.355" x2="3.81" y2="40.9575" width="0.254" layer="16"/>
+<wire x1="3.81" y1="40.9575" x2="1.5875" y2="38.735" width="0.254" layer="16"/>
 <via x="1.5875" y="38.735" extent="1-16" drill="0.3302"/>
-<wire x1="1.5875" y1="38.735" x2="2.6425" y2="38.735" width="0.2032" layer="1"/>
+<wire x1="1.5875" y1="38.735" x2="2.6425" y2="38.735" width="0.254" layer="1"/>
+<wire x1="3.81" y1="46.355" x2="4.4475" y2="45.7175" width="0.254" layer="1"/>
+<wire x1="4.4475" y1="45.7175" x2="5.01" y2="45.7175" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO21">
 <contactref element="RPI_GPIO" pad="40"/>
 <contactref element="GPIO21" pad="TP"/>
-<wire x1="55.245" y1="49.53" x2="55.245" y2="52.885" width="0.254" layer="1"/>
-<wire x1="55.245" y1="52.885" x2="56.63" y2="54.27" width="0.254" layer="1"/>
+<wire x1="56.63" y1="54.27" x2="55.245" y2="52.885" width="0.254" layer="1"/>
+<wire x1="55.245" y1="52.885" x2="55.245" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO20">
 <contactref element="RPI_GPIO" pad="38"/>
@@ -847,8 +848,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="RPI_GPIO15">
 <contactref element="RPI_GPIO" pad="10"/>
 <contactref element="GPIO15" pad="TP"/>
-<wire x1="17.4625" y1="49.53" x2="17.4625" y2="53.2025" width="0.254" layer="1"/>
-<wire x1="17.4625" y1="53.2025" x2="18.53" y2="54.27" width="0.254" layer="1"/>
+<wire x1="17.145" y1="49.53" x2="17.145" y2="52.885" width="0.254" layer="1"/>
+<wire x1="17.145" y1="52.885" x2="18.53" y2="54.27" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO14">
 <contactref element="RPI_GPIO" pad="8"/>
