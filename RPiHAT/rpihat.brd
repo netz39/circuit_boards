@@ -120,7 +120,23 @@
 <circle x="61.5" y="3.5" radius="3.15" width="0" layer="42"/>
 <circle x="3.5" y="3.5" radius="3.15" width="0" layer="41"/>
 <text x="6.985" y="49.2125" size="0.6096" layer="25" font="vector" ratio="10">1</text>
-<text x="0.3175" y="47.3075" size="0.6096" layer="25" font="vector" ratio="10" rot="R270">CC 4.0 BY-SA Netz39</text>
+<text x="6.6675" y="0.635" size="0.6096" layer="25" font="vector" ratio="10">CC 4.0 BY-SA Netz39</text>
+<text x="10.16" y="42.8625" size="0.6096" layer="48">When drawing more than</text>
+<text x="10.16" y="41.91" size="0.6096" layer="48">500mA from the 5V pins,</text>
+<text x="10.16" y="40.9575" size="0.6096" layer="48">re-wire accordingly!</text>
+<wire x1="0.635" y1="48.5775" x2="6.985" y2="48.5775" width="0.1524" layer="25"/>
+<wire x1="6.985" y1="48.5775" x2="6.985" y2="37.1475" width="0.1524" layer="25"/>
+<wire x1="6.985" y1="37.1475" x2="0.635" y2="37.1475" width="0.1524" layer="25"/>
+<wire x1="0.635" y1="37.1475" x2="0.635" y2="48.5775" width="0.1524" layer="25"/>
+<text x="6.0325" y="49.53" size="0.6096" layer="25" font="vector" ratio="10" rot="R180">ID EEPROM</text>
+<wire x1="9.525" y1="44.1325" x2="20.0025" y2="44.1325" width="0.254" layer="48"/>
+<wire x1="20.0025" y1="44.1325" x2="20.0025" y2="40.005" width="0.254" layer="48"/>
+<wire x1="20.0025" y1="40.005" x2="9.525" y2="40.005" width="0.254" layer="48"/>
+<wire x1="9.525" y1="40.005" x2="9.525" y2="44.1325" width="0.254" layer="48"/>
+<text x="6.35" y="30.48" size="0.6096" layer="48">Cutout is optinonal</text>
+<text x="6.35" y="29.5275" size="0.6096" layer="48">and may be removed.</text>
+<text x="47.3075" y="18.0975" size="0.6096" layer="48">Cutout is optinonal</text>
+<text x="47.3075" y="16.8275" size="0.6096" layer="48">and may be removed.</text>
 </plain>
 <libraries>
 <library name="con-lsta">
@@ -540,11 +556,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="56.3125" y="49.0815" size="0.6096" layer="25" ratio="10"/>
 <attribute name="VALUE" x="7.1" y="57.699" size="1.27" layer="28" ratio="10" rot="MR180"/>
 </element>
-<element name="WP" library="we-rcl" package="JUMPER2_NC" value="JUMPER2-NOCREAM" x="3.81" y="47.9425" smashed="yes" rot="R90">
-<attribute name="NAME" x="1.5875" y="47.9425" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<element name="WP" library="we-rcl" package="JUMPER2_NC" value="JUMPER2-NOCREAM" x="3.81" y="47.625" smashed="yes" rot="R90">
+<attribute name="NAME" x="1.5875" y="47.625" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="C1" library="we-rcl" package="R0603" value="100n" x="6.0325" y="39.6875" smashed="yes">
-<attribute name="NAME" x="6.0325" y="37.7825" size="0.6096" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="6.35" y="37.7825" size="0.6096" layer="25" font="vector" ratio="10" align="center"/>
 </element>
 <element name="R1" library="we-rcl" package="R0603" value="3k9" x="3.4925" y="40.3225" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.715" y="41.5925" size="0.6096" layer="25" font="vector" ratio="10" align="center"/>
@@ -555,9 +571,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R3" library="we-rcl" package="R0603" value="3k9" x="3.4925" y="38.735" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.4925" y="37.7825" size="0.6096" layer="25" font="vector" ratio="10" align="center"/>
 </element>
-<element name="IC" library="we-chip" package="SOT23-5" value="24LC-I/OT" x="3.81" y="44.7675" smashed="yes">
+<element name="U1" library="we-chip" package="SOT23-5" value="24LC-I/OT" x="3.81" y="44.7675" smashed="yes">
 <attribute name="DIGIKEY" value="24LC32AT-I/OTDKR-ND" x="-17.78" y="46.0375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="1.5875" y="43.4975" size="0.4064" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="3.81" y="44.7675" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="6.35" y="44.7675" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="GPIO06" library="testpad" package="TP06R" value="PTR1TP06R" x="46.355" y="48.5775" smashed="yes" rot="R270">
 <attribute name="TP_SIGNAL_NAME" value="" x="44.45" y="49.2125" size="1" layer="37" rot="R270"/>
@@ -683,7 +700,7 @@ Please make sure your boards conform to these design rules.</description>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="IC" pad="2"/>
+<contactref element="U1" pad="2"/>
 <contactref element="WP" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="RPI_GPIO" pad="9"/>
@@ -706,7 +723,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="+3V3">
 <contactref element="R2" pad="2"/>
-<contactref element="IC" pad="4"/>
+<contactref element="U1" pad="4"/>
 <contactref element="R3" pad="2"/>
 <contactref element="C1" pad="2"/>
 <contactref element="R1" pad="2"/>
@@ -732,7 +749,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="ID_SD">
 <contactref element="R2" pad="1"/>
-<contactref element="IC" pad="3"/>
+<contactref element="U1" pad="3"/>
 <contactref element="RPI_GPIO" pad="27"/>
 <wire x1="2.61" y1="43.8175" x2="2.61" y2="42.26" width="0.3048" layer="1"/>
 <wire x1="2.61" y1="42.26" x2="2.6425" y2="41.91" width="0.3048" layer="1"/>
@@ -751,7 +768,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="ID_SC">
 <contactref element="R1" pad="1"/>
-<contactref element="IC" pad="1"/>
+<contactref element="U1" pad="1"/>
 <contactref element="RPI_GPIO" pad="28"/>
 <wire x1="2.61" y1="45.7175" x2="3.1775" y2="45.7175" width="0.254" layer="1"/>
 <wire x1="3.1775" y1="45.7175" x2="3.81" y2="45.085" width="0.254" layer="1"/>
@@ -773,17 +790,19 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="WP">
 <contactref element="WP" pad="2"/>
 <contactref element="R3" pad="1"/>
-<contactref element="IC" pad="5"/>
+<contactref element="U1" pad="5"/>
 <wire x1="5.01" y1="45.7175" x2="5.01" y2="47.5025" width="0.254" layer="1"/>
-<wire x1="5.01" y1="47.5025" x2="4.57" y2="47.9425" width="0.3048" layer="1"/>
+<wire x1="5.01" y1="47.5025" x2="4.57" y2="47.625" width="0.3048" layer="1"/>
 <wire x1="5.01" y1="45.7175" x2="4.765" y2="45.7175" width="0.3048" layer="1"/>
-<via x="3.81" y="46.355" extent="1-16" drill="0.3302"/>
-<wire x1="3.81" y1="46.355" x2="3.81" y2="40.9575" width="0.254" layer="16"/>
-<wire x1="3.81" y1="40.9575" x2="1.5875" y2="38.735" width="0.254" layer="16"/>
-<via x="1.5875" y="38.735" extent="1-16" drill="0.3302"/>
-<wire x1="1.5875" y1="38.735" x2="2.6425" y2="38.735" width="0.254" layer="1"/>
-<wire x1="3.81" y1="46.355" x2="4.4475" y2="45.7175" width="0.254" layer="1"/>
+<via x="6.35" y="46.355" extent="1-16" drill="0.3302"/>
+<wire x1="3.81" y1="41.11625" x2="1.42875" y2="38.735" width="0.254" layer="16"/>
+<via x="1.42875" y="38.735" extent="1-16" drill="0.3302"/>
+<wire x1="1.42875" y1="38.735" x2="2.6425" y2="38.735" width="0.254" layer="1"/>
 <wire x1="4.4475" y1="45.7175" x2="5.01" y2="45.7175" width="0.254" layer="1"/>
+<wire x1="6.35" y1="46.355" x2="5.7125" y2="45.7175" width="0.254" layer="1"/>
+<wire x1="5.7125" y1="45.7175" x2="5.01" y2="45.7175" width="0.254" layer="1"/>
+<wire x1="3.81" y1="41.11625" x2="3.81" y2="43.815" width="0.254" layer="16"/>
+<wire x1="3.81" y1="43.815" x2="6.35" y2="46.355" width="0.254" layer="16"/>
 </signal>
 <signal name="RPI_GPIO21">
 <contactref element="RPI_GPIO" pad="40"/>
@@ -951,8 +970,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="53.975" y1="48.5775" x2="53.975" y2="51.615" width="0.254" layer="1"/>
 <wire x1="53.975" y1="51.615" x2="54.09" y2="51.73" width="0.254" layer="1"/>
 </signal>
+<signal name="N$1">
+</signal>
 </signals>
 <errors>
+<approved hash="18,29,b90b728a75f6668f"/>
+<approved hash="18,29,edf14ab50b1f7b4a"/>
 <approved hash="18,29,2f7b1fb59fb0af7e"/>
 <approved hash="18,29,7d831bef9beefd82"/>
 <approved hash="18,29,a3c69211121423c3"/>
@@ -962,57 +985,55 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,f0d845a045a2f0da"/>
 <approved hash="18,29,4a633a1b3bba4bc2"/>
 <approved hash="18,29,4a013a793b864bfe"/>
+<approved hash="18,29,fcd845a045a3fcdb"/>
 <approved hash="18,29,89a89bfc7deffaae"/>
 <approved hash="18,29,7c70f9439bd489e6"/>
-<approved hash="18,29,fcd845a045a3fcdb"/>
-<approved hash="18,29,8b81bbf9bb818bf9"/>
-<approved hash="18,29,31a4c4dcc4a331db"/>
-<approved hash="18,29,8b1fbb67bbbb8bc3"/>
-<approved hash="18,29,3da4c4dcc4a23dda"/>
-<approved hash="18,29,fdf6f9425a5549e6"/>
-<approved hash="18,29,48575b7cfdf1fbad"/>
 <approved hash="18,29,0a1d3a653ba60bde"/>
 <approved hash="18,29,b0dc45a4459eb0e6"/>
 <approved hash="18,29,0b873bff3bba0bc2"/>
-<approved hash="18,29,bcdc45a4459fbce7"/>
-<approved hash="18,29,48575a7d7cf37bd1"/>
 <approved hash="18,29,7df079425b5148d9"/>
-<approved hash="18,29,18ff2bb23a7e8c24"/>
-<approved hash="18,29,0a0c3ad22b6c9cb1"/>
+<approved hash="18,29,48575a7d7cf37bd1"/>
+<approved hash="18,29,bcdc45a4459fbce7"/>
+<approved hash="18,29,8b81bbf9bb818bf9"/>
+<approved hash="18,29,8b1fbb67bbbb8bc3"/>
+<approved hash="18,29,31a4c4dcc4a331db"/>
+<approved hash="18,29,fdf6f9425a5549e6"/>
+<approved hash="18,29,48575b7cfdf1fbad"/>
+<approved hash="18,29,3da4c4dcc4a23dda"/>
+<approved hash="18,29,0a89fad3eaec1d8e"/>
+<approved hash="18,29,1900eacdfb620da5"/>
 <approved hash="18,29,8b8dfad3eaea9cb1"/>
 <approved hash="18,29,9900eab1fa608ca4"/>
-<approved hash="18,29,1900eacdfb620da5"/>
-<approved hash="18,29,0a89fad3eaec1d8e"/>
-<approved hash="18,29,b90b728a75f6668f"/>
-<approved hash="18,29,edf14ab50b1f7b4a"/>
-<approved hash="18,29,bcdcc5a4c59fbce7"/>
-<approved hash="18,29,f1190d610ca2f0da"/>
-<approved hash="18,29,f0830cfb0cbef0c6"/>
-<approved hash="18,29,3adc41a4419e3ae6"/>
-<approved hash="18,29,70858cfd8c8570fd"/>
-<approved hash="18,29,701b8c638cbf70c7"/>
-<approved hash="18,29,3da444dc44a23dda"/>
-<approved hash="18,29,bba4c0dcc0a3bbdb"/>
+<approved hash="18,29,18ff2bb23a7e8c24"/>
+<approved hash="18,29,0a0c3ad22b6c9cb1"/>
 <approved hash="18,29,b1670d1f0cbeb0c6"/>
 <approved hash="18,29,fcd8c5a0c5a3fcdb"/>
 <approved hash="18,29,b1050d7d0c82b0fa"/>
 <approved hash="18,29,7ad841a041a27ada"/>
+<approved hash="18,29,bcdcc5a4c59fbce7"/>
+<approved hash="18,29,f1190d610ca2f0da"/>
+<approved hash="18,29,f0830cfb0cbef0c6"/>
+<approved hash="18,29,3adc41a4419e3ae6"/>
+<approved hash="18,29,701b8c638cbf70c7"/>
+<approved hash="18,29,3da444dc44a23dda"/>
+<approved hash="18,29,70858cfd8c8570fd"/>
+<approved hash="18,29,bba4c0dcc0a3bbdb"/>
 <approved hash="18,29,263cc72b472ba63c"/>
 <approved hash="18,29,395b148c9483b954"/>
 <approved hash="18,29,10e7ce524e5290e7"/>
 <approved hash="18,29,0e021e779e788e0d"/>
-<approved hash="18,29,b547aee49031cb0b"/>
-<approved hash="18,29,1c00ab78ab3d1c45"/>
-<approved hash="18,29,f9bdcec5cecdf9b5"/>
-<approved hash="18,29,1c0bab73ab311c49"/>
-<approved hash="18,29,275065e82139951a"/>
-<approved hash="18,29,f7bc42c442ccf7b4"/>
-<approved hash="18,29,fea9c9d1cdf0fa88"/>
-<approved hash="18,29,b6b01791970c74a8"/>
 <approved hash="18,29,1f9aa8e2ab211c59"/>
+<approved hash="18,29,fea9c9d1cdf0fa88"/>
 <approved hash="18,29,1b07ac7faba11cd9"/>
+<approved hash="18,29,b6b01791970c74a8"/>
 <approved hash="18,29,54ba1882e2075ab8"/>
 <approved hash="18,29,f0a845d041f1f489"/>
+<approved hash="18,29,1c0bab73ab311c49"/>
+<approved hash="18,29,f9bdcec5cecdf9b5"/>
+<approved hash="18,29,1c00ab78ab3d1c45"/>
+<approved hash="18,29,b547aee49031cb0b"/>
+<approved hash="18,29,275065e82139951a"/>
+<approved hash="18,29,f7bc42c442ccf7b4"/>
 </errors>
 </board>
 </drawing>

@@ -1491,7 +1491,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R1" library="we-rcl" deviceset="RESISTOR" device="-R0603" value="3k9"/>
 <part name="R2" library="we-rcl" deviceset="RESISTOR" device="-R0603" value="3k9"/>
 <part name="R3" library="we-rcl" deviceset="RESISTOR" device="-R0603" value="3k9"/>
-<part name="IC" library="we-chip" deviceset="24LC*" device="-I/OT"/>
+<part name="U1" library="we-chip" deviceset="24LC*" device="-I/OT"/>
 <part name="GPIO06" library="testpad" deviceset="PTR1" device="TP06R" value="PTR1TP06R"/>
 <part name="GPIO13" library="testpad" deviceset="PTR1" device="TP06R" value="PTR1TP06R"/>
 <part name="GPIO19" library="testpad" deviceset="PTR1" device="TP06R" value="PTR1TP06R"/>
@@ -1577,7 +1577,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R1" gate="R" x="24.13" y="27.94" rot="R90"/>
 <instance part="R2" gate="R" x="72.39" y="27.94" rot="R90"/>
 <instance part="R3" gate="R" x="31.75" y="24.13" rot="R90"/>
-<instance part="IC" gate="IC" x="49.53" y="22.86"/>
+<instance part="U1" gate="IC" x="49.53" y="22.86"/>
 <instance part="GPIO06" gate="G$1" x="175.26" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="160.02" y="108.966" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="172.72" y="107.95" size="1.778" layer="97" rot="R270"/>
@@ -1706,7 +1706,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="74.93" y1="17.78" x2="67.31" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="IC" gate="IC" pin="GND"/>
+<pinref part="U1" gate="IC" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -1798,7 +1798,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="67.31" y1="33.02" x2="72.39" y2="33.02" width="0.1524" layer="91"/>
 <junction x="67.31" y="33.02"/>
 <pinref part="R2" gate="R" pin="2"/>
-<pinref part="IC" gate="IC" pin="VCC"/>
+<pinref part="U1" gate="IC" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
@@ -1841,7 +1841,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R2" gate="R" pin="1"/>
 <wire x1="72.39" y1="22.86" x2="67.31" y2="22.86" width="0.1524" layer="91"/>
 <junction x="72.39" y="22.86"/>
-<pinref part="IC" gate="IC" pin="SDA"/>
+<pinref part="U1" gate="IC" pin="SDA"/>
 </segment>
 <segment>
 <pinref part="RPI_GPIO" gate="G$1" pin="27"/>
@@ -1860,7 +1860,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R1" gate="R" pin="1"/>
 <wire x1="24.13" y1="22.86" x2="34.29" y2="22.86" width="0.1524" layer="91"/>
 <junction x="24.13" y="22.86"/>
-<pinref part="IC" gate="IC" pin="SCL"/>
+<pinref part="U1" gate="IC" pin="SCL"/>
 </segment>
 <segment>
 <pinref part="RPI_GPIO" gate="G$1" pin="28"/>
@@ -1879,7 +1879,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="31.75" y="17.78"/>
 <pinref part="WP" gate="J" pin="2"/>
 <pinref part="R3" gate="R" pin="1"/>
-<pinref part="IC" gate="IC" pin="WP"/>
+<pinref part="U1" gate="IC" pin="WP"/>
 </segment>
 </net>
 <net name="RPI_GPIO21" class="0">
