@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -815,84 +815,108 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="RPI_GPIO21">
 <contactref element="RPI_GPIO" pad="40"/>
 <contactref element="GPIO21" pad="TP"/>
-<wire x1="56.63" y1="54.27" x2="55.245" y2="52.885" width="0.254" layer="1"/>
-<wire x1="55.245" y1="52.885" x2="55.245" y2="49.53" width="0.254" layer="1"/>
+<wire x1="56.63" y1="54.27" x2="55.36" y2="53" width="0.254" layer="1"/>
+<wire x1="55.36" y1="53" x2="55.36" y2="49.53" width="0.254" layer="1"/>
+<wire x1="55.36" y1="49.53" x2="55.245" y2="49.415" width="0.254" layer="1"/>
+<wire x1="55.245" y1="49.415" x2="55.245" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO20">
 <contactref element="RPI_GPIO" pad="38"/>
 <contactref element="GPIO20" pad="TP"/>
-<wire x1="52.705" y1="49.53" x2="52.705" y2="52.885" width="0.254" layer="1"/>
-<wire x1="52.705" y1="52.885" x2="54.09" y2="54.27" width="0.254" layer="1"/>
+<wire x1="54.09" y1="54.27" x2="52.82" y2="53" width="0.254" layer="1"/>
+<wire x1="52.82" y1="53" x2="52.82" y2="49.53" width="0.254" layer="1"/>
+<wire x1="52.82" y1="49.53" x2="52.705" y2="49.415" width="0.254" layer="1"/>
+<wire x1="52.705" y1="49.415" x2="52.705" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO16">
 <contactref element="RPI_GPIO" pad="36"/>
 <contactref element="GPIO16" pad="TP"/>
-<wire x1="50.165" y1="49.53" x2="50.165" y2="52.885" width="0.254" layer="1"/>
-<wire x1="50.165" y1="52.885" x2="51.55" y2="54.27" width="0.254" layer="1"/>
+<wire x1="51.55" y1="54.27" x2="50.28" y2="53" width="0.254" layer="1"/>
+<wire x1="50.28" y1="53" x2="50.28" y2="49.53" width="0.254" layer="1"/>
+<wire x1="50.28" y1="49.53" x2="50.165" y2="49.415" width="0.254" layer="1"/>
+<wire x1="50.165" y1="49.415" x2="50.165" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO12">
 <contactref element="RPI_GPIO" pad="32"/>
 <contactref element="GPIO12" pad="TP"/>
-<wire x1="45.085" y1="49.53" x2="45.085" y2="52.885" width="0.254" layer="1"/>
-<wire x1="45.085" y1="52.885" x2="46.47" y2="54.27" width="0.254" layer="1"/>
+<wire x1="46.47" y1="54.27" x2="45.2" y2="53" width="0.254" layer="1"/>
+<wire x1="45.2" y1="53" x2="45.2" y2="49.53" width="0.254" layer="1"/>
+<wire x1="45.2" y1="49.53" x2="45.085" y2="49.415" width="0.254" layer="1"/>
+<wire x1="45.085" y1="49.415" x2="45.085" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO07">
 <contactref element="RPI_GPIO" pad="26"/>
 <contactref element="GPIO07" pad="TP"/>
-<wire x1="37.465" y1="49.53" x2="37.465" y2="52.885" width="0.254" layer="1"/>
-<wire x1="37.465" y1="52.885" x2="38.85" y2="54.27" width="0.254" layer="1"/>
+<wire x1="38.85" y1="54.27" x2="37.58" y2="53" width="0.254" layer="1"/>
+<wire x1="37.58" y1="53" x2="37.58" y2="49.53" width="0.254" layer="1"/>
+<wire x1="37.58" y1="49.53" x2="37.465" y2="49.415" width="0.254" layer="1"/>
+<wire x1="37.465" y1="49.415" x2="37.465" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO08">
 <contactref element="RPI_GPIO" pad="24"/>
 <contactref element="GPIO08" pad="TP"/>
-<wire x1="34.925" y1="49.53" x2="34.925" y2="52.885" width="0.254" layer="1"/>
-<wire x1="34.925" y1="52.885" x2="36.31" y2="54.27" width="0.254" layer="1"/>
+<wire x1="36.31" y1="54.27" x2="35.04" y2="53" width="0.254" layer="1"/>
+<wire x1="35.04" y1="53" x2="35.04" y2="49.53" width="0.254" layer="1"/>
+<wire x1="35.04" y1="49.53" x2="34.925" y2="49.415" width="0.254" layer="1"/>
+<wire x1="34.925" y1="49.415" x2="34.925" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO25">
 <contactref element="RPI_GPIO" pad="22"/>
 <contactref element="GPIO25" pad="TP"/>
-<wire x1="32.385" y1="49.53" x2="32.385" y2="52.885" width="0.254" layer="1"/>
-<wire x1="32.385" y1="52.885" x2="33.77" y2="54.27" width="0.254" layer="1"/>
+<wire x1="33.77" y1="54.27" x2="32.5" y2="53" width="0.254" layer="1"/>
+<wire x1="32.5" y1="53" x2="32.5" y2="49.53" width="0.254" layer="1"/>
+<wire x1="32.5" y1="49.53" x2="32.385" y2="49.415" width="0.254" layer="1"/>
+<wire x1="32.385" y1="49.415" x2="32.385" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO24">
 <contactref element="RPI_GPIO" pad="18"/>
 <contactref element="GPIO24" pad="TP"/>
-<wire x1="27.305" y1="49.53" x2="27.305" y2="52.885" width="0.254" layer="1"/>
-<wire x1="27.305" y1="52.885" x2="28.69" y2="54.27" width="0.254" layer="1"/>
+<wire x1="28.69" y1="54.27" x2="27.42" y2="53" width="0.254" layer="1"/>
+<wire x1="27.42" y1="53" x2="27.42" y2="49.53" width="0.254" layer="1"/>
+<wire x1="27.42" y1="49.53" x2="27.305" y2="49.415" width="0.254" layer="1"/>
+<wire x1="27.305" y1="49.415" x2="27.305" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO23">
 <contactref element="RPI_GPIO" pad="16"/>
 <contactref element="GPIO23" pad="TP"/>
-<wire x1="24.765" y1="49.53" x2="24.765" y2="52.885" width="0.254" layer="1"/>
-<wire x1="24.765" y1="52.885" x2="26.15" y2="54.27" width="0.254" layer="1"/>
+<wire x1="26.15" y1="54.27" x2="24.88" y2="53" width="0.254" layer="1"/>
+<wire x1="24.88" y1="53" x2="24.88" y2="49.53" width="0.254" layer="1"/>
+<wire x1="24.88" y1="49.53" x2="24.765" y2="49.415" width="0.254" layer="1"/>
+<wire x1="24.765" y1="49.415" x2="24.765" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO18">
 <contactref element="RPI_GPIO" pad="12"/>
 <contactref element="GPIO18" pad="TP"/>
-<wire x1="19.685" y1="49.53" x2="19.685" y2="52.885" width="0.254" layer="1"/>
-<wire x1="19.685" y1="52.885" x2="21.07" y2="54.27" width="0.254" layer="1"/>
+<wire x1="21.07" y1="54.27" x2="19.8" y2="53" width="0.254" layer="1"/>
+<wire x1="19.8" y1="53" x2="19.8" y2="49.53" width="0.254" layer="1"/>
+<wire x1="19.8" y1="49.53" x2="19.685" y2="49.415" width="0.254" layer="1"/>
+<wire x1="19.685" y1="49.415" x2="19.685" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO15">
 <contactref element="RPI_GPIO" pad="10"/>
 <contactref element="GPIO15" pad="TP"/>
-<wire x1="17.145" y1="49.53" x2="17.145" y2="52.885" width="0.254" layer="1"/>
-<wire x1="17.145" y1="52.885" x2="18.53" y2="54.27" width="0.254" layer="1"/>
+<wire x1="18.53" y1="54.27" x2="17.26" y2="53" width="0.254" layer="1"/>
+<wire x1="17.26" y1="53" x2="17.26" y2="49.53" width="0.254" layer="1"/>
+<wire x1="17.26" y1="49.53" x2="17.145" y2="49.415" width="0.254" layer="1"/>
+<wire x1="17.145" y1="49.415" x2="17.145" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="RPI_GPIO14">
 <contactref element="RPI_GPIO" pad="8"/>
 <contactref element="GPIO14" pad="TP"/>
-<wire x1="14.605" y1="49.53" x2="14.605" y2="52.885" width="0.254" layer="1"/>
-<wire x1="14.605" y1="52.885" x2="15.99" y2="54.27" width="0.254" layer="1"/>
+<wire x1="15.99" y1="54.27" x2="14.72" y2="53" width="0.254" layer="1"/>
+<wire x1="14.72" y1="53" x2="14.72" y2="49.53" width="0.254" layer="1"/>
+<wire x1="14.72" y1="49.53" x2="14.605" y2="49.415" width="0.254" layer="1"/>
+<wire x1="14.605" y1="49.415" x2="14.605" y2="49.53" width="0.254" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="RPI_GPIO" pad="4"/>
 <contactref element="RPI_GPIO" pad="2"/>
 <contactref element="+5V" pad="TP"/>
-<wire x1="9.525" y1="53.115" x2="8.37" y2="54.27" width="0.4064" layer="1"/>
-<wire x1="9.525" y1="49.53" x2="9.525" y2="53.115" width="0.4064" layer="1"/>
-<wire x1="9.525" y1="49.53" x2="9.525" y2="53.0225" width="0.4064" layer="1"/>
-<wire x1="9.525" y1="53.0225" x2="10.7725" y2="54.27" width="0.4064" layer="1"/>
-<wire x1="10.7725" y1="54.27" x2="10.91" y2="54.27" width="0.4064" layer="1"/>
+<wire x1="10.91" y1="54.27" x2="9.64" y2="53" width="0.4064" layer="1"/>
+<wire x1="9.64" y1="53" x2="9.64" y2="49.53" width="0.4064" layer="1"/>
+<wire x1="9.64" y1="49.53" x2="9.525" y2="49.415" width="0.254" layer="1"/>
+<wire x1="9.525" y1="49.415" x2="9.525" y2="49.53" width="0.254" layer="1"/>
+<wire x1="8.37" y1="54.27" x2="9.64" y2="53" width="0.4064" layer="1"/>
 </signal>
 <signal name="RPI_GPIO02">
 <contactref element="RPI_GPIO" pad="3"/>
@@ -1042,6 +1066,64 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,b547aee49031cb0b"/>
 <approved hash="18,29,275065e82139951a"/>
 <approved hash="18,29,f7bc42c442ccf7b4"/>
+<approved hash="18,29,d414b8da38d95417"/>
+<approved hash="18,29,20eac6864689a0e5"/>
+<approved hash="18,29,6ff03f85bf86eff3"/>
+<approved hash="18,29,9d964323c32c1d99"/>
+<approved hash="18,29,58a9357eb57dd8aa"/>
+<approved hash="18,29,ab4d4a5aca552b42"/>
+<approved hash="18,29,418e79f6798e41f6"/>
+<approved hash="18,29,4110796879b441cc"/>
+<approved hash="18,29,bfa748df48a1bfd9"/>
+<approved hash="18,29,33ab48d348ad33d5"/>
+<approved hash="18,29,b5f9bf4d985a89e9"/>
+<approved hash="18,29,88589973bbfeb3a2"/>
+<approved hash="18,29,3edfc9a7c99c3ee4"/>
+<approved hash="18,29,c012f86af9a9c1d1"/>
+<approved hash="18,29,c188f9f0f9b5c1cd"/>
+<approved hash="18,29,885898723afc33de"/>
+<approved hash="18,29,35ff3f4d995e88d6"/>
+<approved hash="18,29,b2d3c9abc990b2e8"/>
+<approved hash="18,29,7edbc9a3c9a07ed8"/>
+<approved hash="18,29,806cf814f9b581cd"/>
+<approved hash="18,29,800ef876f98981f1"/>
+<approved hash="18,29,f2d7c9afc9acf2d4"/>
+<approved hash="18,29,49a759f33be0b2a1"/>
+<approved hash="18,29,347fbf4c59db49e9"/>
+<approved hash="18,29,9b066ecb7f648fa3"/>
+<approved hash="18,29,9af9afb4be780e22"/>
+<approved hash="18,29,098b7ed56eec1eb7"/>
+<approved hash="18,29,1b066eb77e660ea2"/>
+<approved hash="18,29,880abed4af6a1eb7"/>
+<approved hash="18,29,888f7ed56eea9f88"/>
+<approved hash="18,29,7ed841a041a37edb"/>
+<approved hash="18,29,6d63151b14ba6cc2"/>
+<approved hash="18,29,6d01157914866cfe"/>
+<approved hash="18,29,e0d845a045a3e0db"/>
+<approved hash="18,29,bfa4c0dcc0a2bfda"/>
+<approved hash="18,29,ac8194f99481acf9"/>
+<approved hash="18,29,ac1f946794bbacc3"/>
+<approved hash="18,29,21a4c4dcc4a221da"/>
+<approved hash="18,29,3edc41a4419f3ee7"/>
+<approved hash="18,29,2d1d156514a62cde"/>
+<approved hash="18,29,2c8714ff14ba2cc2"/>
+<approved hash="18,29,a0dc45a4459fa0e7"/>
+<approved hash="18,29,ed9e732bf3346d81"/>
+<approved hash="18,29,e964c51145126967"/>
+<approved hash="18,29,db457a52fa4d5b5a"/>
+<approved hash="18,29,de3dcfea4fe95e3e"/>
+<approved hash="18,29,230f5a775da924d1"/>
+<approved hash="18,29,78a845d041f17c89"/>
+<approved hash="18,29,d2b16390990d54a9"/>
+<approved hash="18,29,27925eea5d292451"/>
+<approved hash="18,29,54bb5882600796b8"/>
+<approved hash="18,29,7ea9c9d1cdf07a88"/>
+<approved hash="18,29,9546a0e5e430af0a"/>
+<approved hash="18,29,24085d705d35244d"/>
+<approved hash="18,29,24035d7b5d392441"/>
+<approved hash="18,29,7fbc42c442cc7fb4"/>
+<approved hash="18,29,79bdcec5cecd79b5"/>
+<approved hash="18,29,eb50e7e96139951a"/>
 </errors>
 </board>
 </drawing>
